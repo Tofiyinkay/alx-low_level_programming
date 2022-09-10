@@ -1,3 +1,2 @@
 #!/bin/bash 
 touch cfile.c
-gcc cfile.c -0 c
