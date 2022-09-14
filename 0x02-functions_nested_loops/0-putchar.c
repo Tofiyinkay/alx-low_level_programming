@@ -1,24 +1,21 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - function to print abc
  *
- * Return: Always 0
+ * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
- char *sh = "main.h";
+ char c;
 
- while (*sh)
+ for (c='a';c<='z';c++)
 
 {
 
-_putchar(*sh);
+_putchar(c);
 
-sh++;
-
+}
 	}
 _putchar('\n');
-
-return (0);
 
 }
